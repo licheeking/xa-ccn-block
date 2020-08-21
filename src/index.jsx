@@ -1,5 +1,12 @@
 /**
- * Created by kang on 18/5/27.
+ * Created by junxie on 18/5/27.
  */
-import Toolbar from './component/TooltipButton/ToolBar';
-import TooltipButton from './component/TooltipButton/TooltipButton';
+import React from 'react';
+import ReactDom from 'react-dom';
+import App from './component/App';
+import './default.less';
+import './markdown-style.less';
+import './style.less';
+ReactDom.render(<App />,
+    document.getElementById('app')
+);
